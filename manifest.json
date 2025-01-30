@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Word Highlighter",
+  "version": "20.0",
+  "description": "Highlights configured words with specified colors.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "options_page": "hello.html"
+}
+

@@ -1,0 +1,33 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#config {
+  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif;
+  unicode-bidi: embed;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+textarea {
+  resize: vertical;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.status {
+  color: #666;
+  font-size: 0.9em;
+  min-height: 1.2em;
+}
