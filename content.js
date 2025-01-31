@@ -9,8 +9,13 @@ let intervalId = null;
 (async function() {
   try {
     const {config} = await chrome.storage.local.get('config');
+    
     if (!config?.wordHighlights) return;
 
+    if (config?.domains?.length && 
+        !config.domains.includes(window.location.hostname)) {
+      return;
+    }
 
 
     let intervalId = null;

@@ -14,6 +14,8 @@ edit config before use.
 
     - Поддерживает динамический контент
 
+    - Выбор доменов для работы плагина
+
     - Проверка формата настроек
 
 - В планах:
@@ -41,13 +43,13 @@ Automatically marks specifical words by colors and/or emoji on webpages.
 
     - Works with dynamic content
 
+    - Hosts selection
+
     - JSON config validation
 
 - Ongoing feature
 
     - Case insensitivity
-
-    - Hosts selection
     
     - Testing of XPath semantic selection
     
@@ -63,6 +65,7 @@ Automatically marks specifical words by colors and/or emoji on webpages.
 
 ```json
 {
+  "domains": ["en.wikipedia.org", "ru.wikipedia.org"], // domains (Optional)
   "wordHighlights": [
     {
       "word": "Hello",       // Exact match (case-sensitive!)

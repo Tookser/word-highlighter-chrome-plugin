@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 // Add default config as a constant
 const DEFAULT_CONFIG = {
+  "domains": ["en.wikipedia.org", "ru.wikipedia.org"], // Optional, no or empty for all domains
   "wordHighlights": [
     {
       "word": "Hello",       // Exact match (case-sensitive!)
