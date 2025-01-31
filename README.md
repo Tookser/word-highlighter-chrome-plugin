@@ -2,6 +2,10 @@
 
 edit config before use.
 
+## screenshot
+
+![](word-highlighter-wiki-demo.png)
+
 ## (ru) Подсветка слов (word-highlighter)
 
 Расширение для Chrome «Подсветка слов»
