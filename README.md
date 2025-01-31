@@ -39,7 +39,7 @@ edit config before use.
 
 ## (en) word-highlighter
 
-Automatically marks specifical words by colors and/or emoji on webpages.
+Chrome extension. Automatically marks specifical words by colors and/or emoji on webpages.
 
 - Key Features
 
